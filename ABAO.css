@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* PROFILE PHOTO */
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 50px auto 20px auto;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background-color: #005b96; /* TOPHEADER */
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: grey;
+}
+
+nav ul li:last-child {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+nav ul li:last-child a {
+    background-color: #03396c;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+nav ul li:last-child a:hover {
+    background-color: #007a38;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#home {
+    background: linear-gradient(to right, #6497b1, #1a4e7f);
+    color: white;
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+    background-color: #ecf0f1;
+    margin-top: 5px;
+}
+
+#projects {
+    background: linear-gradient(to right, #6497b1, #1a4e7f) /* SKILLS BG */
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+    color: #1a4e7f;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.project {
+    background-color: #b3cde0;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 20%;
+    min-width: 150px;
+}
+
+.project p {
+    font-size: 14px;
+}
+
+#web {
+    background-color: #6497b1; 
+    color: black;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b3cde0; /* green button */
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: cooper;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.btn:hover {
+    background-color: #1a4e7f; /* darker on hover */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
